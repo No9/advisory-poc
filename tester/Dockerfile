@@ -13,4 +13,4 @@ FROM alpine:3.14
 
 RUN adduser -D app
 
-COPY --from=base  /usr/local/bin/segfaulter /usr/local/bin/
+COPY --from=base  /usr/local/bin/tester /usr/local/bin/
